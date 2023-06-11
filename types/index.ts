@@ -13,6 +13,7 @@ export interface CarProps {
   model: string;
   transmission: string;
   year: number;
+  colourCluster: string;
 }
 
 export interface FilterProps {
