@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, book, rent a car—quick and super easy!
+          Find, book, rent a car-<span className="text-purple-700">quick and super easy!</span> 
         </h1>
 
         <p className="hero__subtitle">
@@ -27,7 +27,7 @@ const Hero = () => {
 
         <CustomButton
           title="Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          containerStyles="bg-purple-700 text-white rounded-full mt-10 hover:bg-gradient-to-r from-violet-800 to-purple-500 transition hover:duration-150 ease-out hover:ease-in"
           handleClick={handleScroll}
         />
       </div>
